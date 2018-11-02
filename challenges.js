@@ -1,8 +1,12 @@
 
 // Write a function named greaterNum that:
 
-function greaterNum(){
-    return 'greater number'
+function greaterNum(a, b){
+    if (a > b) {
+        return b
+    } else {
+        return b
+    }
 }
 
 function helloWorld(){
