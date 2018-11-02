@@ -1,6 +1,4 @@
 
-// Write a function named greaterNum that:
-
 function greaterNum(){
     return 'larger number'
 }
