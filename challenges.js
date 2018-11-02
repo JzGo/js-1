@@ -1,5 +1,5 @@
 
-// Write a function named greaterNum that:
+
 
 function greaterNum(x ,y){
     if(x > y) {

@@ -5,6 +5,7 @@ node_js:
 branches:
   - master
   - test-answer
+  - Damon
 install:
   - npm install
 script:
