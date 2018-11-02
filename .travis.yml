@@ -4,6 +4,7 @@ node_js:
   '10'
 branches:
   - master
+  - test-answer
 install:
   - npm install
 script:
