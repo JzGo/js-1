@@ -22,7 +22,7 @@ describe('helloWorld', () => {
     test('returns Hola, mundo! when it receives "es" as an argument', () => {
         expect(challenges.helloWorld('es')).toBe('Hola, Mundo!')
     })
-    test('returns Hallo, Welt! when it receives "es" as an argument', () => {
+    test('returns Hallo, Welt! when it receives "de" as an argument', () => {
         expect(challenges.helloWorld('de')).toBe('Hallo, Welt!')
     })
 
@@ -34,7 +34,6 @@ describe('helloWorld', () => {
     // test('returns "Sorry, I can't translate that." for valid language code it doesn't handle', => {
     //     expect(challenges.helloWorld(2, 'm')).toBe('ArgumentError: Not a valid language code')
     // })
-    
 })
     
 describe('assignGrade', () => {
