@@ -1,10 +1,10 @@
 
-// Write a function named greaterNum that:
+
 
 function greaterNum(x ,y){
-    if(x > y)
+    if(x > y) {
         return x
-    else {
+    } else {
         return y
     }
 }
