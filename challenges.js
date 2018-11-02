@@ -2,7 +2,7 @@
 // Write a function named greaterNum that:
 
 function greaterNum(){
-    return 'greater number'
+    return 'larger number'
 }
 
 function helloWorld(){
