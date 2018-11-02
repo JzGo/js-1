@@ -2,9 +2,9 @@
 // Write a function named greaterNum that:
 
 function greaterNum(x ,y){
-    if(x > y)
+    if(x > y) {
         return x
-    else {
+    } else {
         return y
     }
 }
@@ -12,9 +12,16 @@ function greaterNum(x ,y){
 greaterNum(10, 6)
 greaterNum(5, 17)
 
-function helloWorld(){
-    return 'hello world'
+function helloWorld(lang){
+    if(lang === "es") {
+        return "Hola, Mundo!"
+    } else if (lang === "de") {
+        return "Hallo, Welt!"
+    } else {
+        return "Hello, World!"
+    }
 }
+
 
 function assignGrade(){
     return 'grade'
