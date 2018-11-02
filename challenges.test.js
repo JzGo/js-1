@@ -26,9 +26,9 @@ describe('helloWorld', () => {
         expect(challenges.helloWorld('de')).toBe('Hallo, Welt!')
     })
     test('returns Hello, World! when it receives any other argument', () => {
-        expect(challenges.helloWorld('fr')).toBe('Hello World!')
-        expect(challenges.helloWorld(2)).toBe('Hello World!')
-        expect(challenges.helloWorld('x')).toBe('Hello World!')
+        expect(challenges.helloWorld('fr')).toBe('Hello, World!')
+        expect(challenges.helloWorld(2)).toBe('Hello, World!')
+        expect(challenges.helloWorld('x')).toBe('Hello, World!')
     })
 
     // Stretch:
