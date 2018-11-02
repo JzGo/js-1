@@ -3,7 +3,7 @@
 
 function greaterNum(a, b){
     if (a > b) {
-        return b
+        return a
     } else {
         return b
     }
